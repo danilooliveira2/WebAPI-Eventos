@@ -6,3 +6,5 @@ Funcionalidades:
 
 - Consultas de Eventos (Compromissos).
 - Cadastro de Eventos.
+- Atualização de Eventos.
+- Deleção de Eventos (apenas lógico, permanencendo os dados para fins de auditoria).
