@@ -1,4 +1,4 @@
-namespace WebAPI_Aprendizado
+namespace WebAPI_Aprendizado.Models
 {
     public class PrevisaoTempo
     {

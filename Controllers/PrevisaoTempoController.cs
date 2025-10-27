@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
+using WebAPI_Aprendizado.Models;
 
 namespace WebAPI_Aprendizado.Controllers
 {
