@@ -9,5 +9,8 @@ namespace WebAPI_Aprendizado.Models
         public int TemperatureF => 32 + (int)(TemperaturaCelsius / 0.5556);
 
         public string? SumarioExplicativo { get; set; }
+
+
+
     }
 }

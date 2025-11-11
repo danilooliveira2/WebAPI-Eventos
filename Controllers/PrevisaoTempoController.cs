@@ -56,6 +56,16 @@ namespace WebAPI_Aprendizado.Controllers
 
 
 
+        [HttpPost("hoje")]
+        public PrevisaoTempo PostHoje()
+        {
+            return new PrevisaoTempo
+            {
+                Data = DateTime.Now,
+                TemperaturaCelsius = Random.Shared.Next(-20, 55),
+                SumarioExplicativo = Sumarios[Random.Shared.Next(Sumarios.Length)]
+            };
+        }
 
         //* * * * * * * CAPTURANDO PARAMETROS NA REQUISIÇÃO * * * * * * * * *
 
